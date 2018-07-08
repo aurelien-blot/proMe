@@ -45,13 +45,15 @@ nav{
     background: gray;
     min-height: 52px;
     z-index: 999;
-
+    position: absolute;
+    width: 100%;
 
 }
 nav ul{
     display: flex;
     justify-content: center;
     margin: 0;
+
 }
 nav ul li{
     list-style: none;
