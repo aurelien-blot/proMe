@@ -3,7 +3,8 @@ html{
     padding: 0;
 }
 body {
-    margin: 0;
+    width: 100%;
+    margin: auto;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -80,17 +81,40 @@ nav li a:active{
     color: white;
 }
 
-.test{
-    height: 500px;
-}
-.test1{
-    background: lightskyblue;
-}
-.test2{
-    background: dodgerblue;
-}
+
 
 .menuAbsolute{
     position: fixed;
     top: 0;
+}
+
+.divTitle{
+    text-transform: uppercase;
+}
+
+.contentDiv{
+    padding: 90px 0 120px;
+    border: 1px solid black;
+
+}
+#aProposDiv{
+    background: rgba(138,210,255,0.05);
+}
+#compDiv{
+    background: rgba(138,210,255,0.12);
+}
+#expDiv{
+    background: rgba(138,210,255,0.19);
+}
+#formationDiv{
+    background:rgba(138,210,255,0.27);
+}
+#realisationDiv{
+    background: rgba(138,210,255,0.19);
+}
+#interestnDiv{
+    background: rgba(138,210,255,0.12);
+}
+#contactDiv{
+    background: rgba(138,210,255,0.05);
 }
