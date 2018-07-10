@@ -100,8 +100,9 @@ nav li a:active{
 #aProposDiv{
     background: rgba(138,210,255,0.05);
 }
-#compsDiv{
+#listComps{
     background: rgba(138,210,255,0.12);
+
 }
 #expDiv{
     background: rgba(138,210,255,0.19);
@@ -117,4 +118,9 @@ nav li a:active{
 }
 #contactDiv{
     background: rgba(138,210,255,0.05);
+}
+
+.alignContent{
+    display: flex;
+    justify-content: center;
 }
