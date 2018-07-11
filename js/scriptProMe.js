@@ -30,3 +30,12 @@ $('a[href^="#"]').click(function(){
     }, 'slow');
     return false;
 });
+
+$('#interestDiv .contentPart i').each(function () {
+    this.hover(function(){
+        console.log('test');
+        this.animate({
+            transform: translateX(0px);
+        })
+    })
+});

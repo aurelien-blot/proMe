@@ -1,0 +1,27 @@
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
+ map ouverte avec point
+<i class="fas fa-map-marked-alt"></i>
+
+avion
+<i class="fas fa-plane"></i>
+
+ordi
+<i class="fas fa-laptop"></i>
+
+arbre
+<i class="fas fa-tree"></i>
+
+branche
+<i class="fab fa-pagelines"></i>
+
+grenouille
+<i class="fas fa-frog"></i>
+
+globe
+<i class="fas fa-globe-americas"></i>
+
+note musique
+<i class="fas fa-music"></i>

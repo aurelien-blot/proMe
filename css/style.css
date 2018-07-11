@@ -7,6 +7,8 @@ body {
     margin: auto;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+
 }
 
 
@@ -82,7 +84,6 @@ nav li a:active{
 }
 
 
-
 .menuAbsolute{
     position: fixed;
     top: 0;
@@ -96,6 +97,13 @@ nav li a:active{
     padding: 90px 0 120px;
     border: 1px solid black;
 
+}
+
+.contentDiv h2{
+    text-align: center;
+}
+.divSubTitle{
+    text-align: center;
 }
 #aProposDiv{
     background: rgba(138,210,255,0.05);
@@ -121,6 +129,55 @@ nav li a:active{
 }
 
 .alignContent{
+    margin:0 auto;
+    max-width: 1200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    border : 1px solid yellow;
+
+}
+.contentPart{
+
+}
+
+.smallFont{
+    font-size: 75%;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.interestIcon{
+    font-size: 300%;
+    margin: auto;
+}
+
+#interestDiv .alignContent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#interestDiv .contentPart{
+    padding: 20px;
+    margin: 20px 40px 20px 40px;
+    width: 200px;
+    border:1px solid black;
+    text-align: center;
+}
+
+.interestTitle{
+    color: grey;
+}
+@keyframes remonterIcone {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(20px);
+    }
+}
+#interestDiv .contentPart i:hover{
+
 }
