@@ -25,3 +25,15 @@ globe
 
 note musique
 <i class="fas fa-music"></i>
+
+phone
+<i class="fas fa-phone"></i>
+
+enveloppe blanche
+<i class="far fa-envelope"></i>
+
+enveloppe noire
+<i class="fas fa-envelope"></i>
+
+marker
+<i class="fas fa-map-marker-alt"></i>

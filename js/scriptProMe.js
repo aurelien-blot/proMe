@@ -30,12 +30,12 @@ $('a[href^="#"]').click(function(){
     }, 'slow');
     return false;
 });
-
+/*
 $('#interestDiv .contentPart i').each(function () {
-    this.hover(function(){
+    $(this).mouseover(function(){
         console.log('test');
-        this.animate({
-            transform: translateX(0px);
-        })
-    })
+        $(this).animate({
+            translateY: '20px'
+        },500)});
 });
+*/

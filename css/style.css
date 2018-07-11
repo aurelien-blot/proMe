@@ -148,8 +148,8 @@ nav li a:active{
     font-weight: 700;
 }
 
-.interestIcon{
-    font-size: 300%;
+.interestIcon,.contactIcon{
+    font-size: 350%;
     margin: auto;
 }
 
@@ -158,7 +158,7 @@ nav li a:active{
     flex-wrap: wrap;
 }
 
-#interestDiv .contentPart{
+#interestDiv .contentPart, #contactDiv .contentPart{
     padding: 20px;
     margin: 20px 40px 20px 40px;
     width: 200px;
@@ -169,15 +169,29 @@ nav li a:active{
 .interestTitle{
     color: grey;
 }
-@keyframes remonterIcone {
-    0% {
-        transform: translateX(0px);
-    }
 
-    100% {
-        transform: translateX(20px);
-    }
+#interestDiv .contentPart i{
+    transform: translate(0,0);
+    transition-duration: .3s;
+    transition-timing-function:ease-out;
+
 }
-#interestDiv .contentPart i:hover{
+#interestDiv .contentPart:hover i {
+    transform: translate(0,-20px);
+    transition-duration: .3s;
+    transition-timing-function:ease-out;
+}
 
+#contactDiv p{
+    color: grey;
+}
+
+@keyframes turn720 {
+    0% {
+        transform: rotate(720deg);
+    }
+
+}
+#contactDiv .contentPart:hover i {
+    animation: turn720 1s;
 }
