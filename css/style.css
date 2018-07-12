@@ -130,10 +130,12 @@ nav li a:active{
 
 .alignContent{
     margin:0 auto;
+    padding : 20px;
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
     border : 1px solid yellow;
+    flex-wrap: wrap;
 
 }
 .contentPart{
@@ -153,12 +155,8 @@ nav li a:active{
     margin: auto;
 }
 
-#interestDiv .alignContent{
-    display: flex;
-    flex-wrap: wrap;
-}
 
-#interestDiv .contentPart, #contactDiv .contentPart{
+.contentPart{
     padding: 20px;
     margin: 20px 40px 20px 40px;
     width: 200px;
@@ -194,4 +192,8 @@ nav li a:active{
 }
 #contactDiv .contentPart:hover i {
     animation: turn720 1s;
+}
+.profilePicDiv{
+    width: 32%;
+    float: left;
 }
