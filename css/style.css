@@ -133,7 +133,7 @@ nav li a:active{
     padding : 20px;
     max-width: 1200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     border : 1px solid yellow;
     flex-wrap: wrap;
 
@@ -193,7 +193,19 @@ nav li a:active{
 #contactDiv .contentPart:hover i {
     animation: turn720 1s;
 }
+
+#aProposDiv .alignContent{
+    display: flex;
+    justify-content: center;
+}
 .profilePicDiv{
-    width: 32%;
-    float: left;
+    max-width: 300px;
+
+}
+.profilePic{
+    width: 100%;
+}
+.profileTextDiv{
+    max-width: 67%;
+
 }

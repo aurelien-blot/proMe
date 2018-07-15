@@ -37,3 +37,14 @@ enveloppe noire
 
 marker
 <i class="fas fa-map-marker-alt"></i>
+
+castle
+<i class="fab fa-fort-awesome"></i>
+
+mongolfière
+<i class="fab fa-fly"></i>
+joueur flûte
+<i class="fab fa-pied-piper-alt"></i>
+
+hands
+<i class="fas fa-hands-helping"></i>

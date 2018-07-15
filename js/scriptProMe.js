@@ -1,4 +1,6 @@
 
+$.get()
+
 var fixmeTop = $('nav').offset().top;       // get initial position of the element
 
 $(window).scroll(function() {                  // assign scroll event listener
