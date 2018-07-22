@@ -32,12 +32,4 @@ $('a[href^="#"]').click(function(){
     }, 'slow');
     return false;
 });
-/*
-$('#interestDiv .contentPart i').each(function () {
-    $(this).mouseover(function(){
-        console.log('test');
-        $(this).animate({
-            translateY: '20px'
-        },500)});
-});
-*/
+

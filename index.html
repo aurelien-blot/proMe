@@ -6,12 +6,12 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>John Smith</title>
+    <title>CV Aurélien blot</title>
 </head>
 <body>
     <header>
         <h1>
-            <span class="headName">John Smithe</span><br>
+            <span class="headName">Aurélien Blot</span><br>
             <span class="headTitle">Concepteur / Développeur</span>
         </h1>
     </header>
@@ -48,19 +48,17 @@
         <h2 class="divTitle">Mes compétences</h2>
         <div class="alignContent">
             <div class="contentPart">
-                <i class="fas fa-phone contactIcon"></i>
+                <i id="logoConception" class="fas fa-sitemap contactIcon"></i>
                 <p class="compDivTitle bold">Conception</p>
                     <ul>
-                        <li>UML</li>
-                        <li>MERISE</li>
-                        <li>POO</li>
-                        <li>MVC</li>
-                        <li>Conception de base de données</li>
+                        <li>UML / MERISE</li>
+                        <li>POO / MVC</li>
+                        <li>Conception base de données</li>
                         <li>API REST</li>
                     </ul>
             </div>
             <div class="contentPart">
-                <i class="fas fa-phone contactIcon"></i>
+                <i id="logoBack" class="fas fa-cogs contactIcon"></i>
                 <p class="compDivTitle bold">Back-end</p>
                 <ul>
                     <li>SQL / MY SQL</li>
@@ -73,12 +71,13 @@
                 </ul>
             </div>
             <div class="contentPart">
-                <i class="fas fa-phone contactIcon"></i>
-                <p class="compDivTitle bold">Front-End</p>
-                <li>HTML5 / CSS3</li>
-                <li>javascript</li>
-                <li>jQuery</li>
-
+                <i id="logoFront" class="fas fa-mobile-alt contactIcon"></i>
+                <p class="compDivTitle bold">Front-End
+                <ul>
+                    <li>HTML5 / CSS3</li>
+                    <li>javascript</li>
+                    <li>jQuery</li>
+                </ul>
 
             </div>
         </div>
@@ -87,6 +86,18 @@
     <div id="expDiv" class="contentDiv align">
         <h2 class="divTitle">Mon expérience</h2>
         <div class="alignContent">
+            <div class="diplomeDiv">
+
+                <div class="datesDiv">
+                    <p class="formationDate">De février 2018</p>
+                    <p class="formationDate">à aujourd'hui </p>
+                </div>
+                <div class="formaDetail">
+                    <p class="formationTitre">Développeur junior (alternance) - CGI</p>
+                    <p class="formationEtab subInfo">CGI - <span class="formationVille">Le Mans (72)</span></p>
+                    <p class="formaResume">Actuellement en alternance pour CGI, je travaille actuellemnt sur un projet de BI : manipulation de flux de données, mapping de données, tests Unitaires.</p>
+                </div>
+            </div>
 
         </div>
     </div>
@@ -94,22 +105,84 @@
     <div id="formationDiv" class="contentDiv align">
         <h2 class="divTitle">Ma Formation</h2>
         <div class="alignContent">
-            <ul>
-                <li><span class="formationDate">2018-02-05 2019-02-17</span><span class="formationTitre">Baccalauréat E.S. - Sciences économiques et sociales - option Economie</span><span class="formationEtab">Lycée Pierre Bayen</span><span class="formationVille">Châlons-en-Champagne</span></li>
-                <li><span class="formationDate">2017-09-01 2018-02-05</span><span class="formationTitre">POEI Concepteur développeur en informatique</span><span class="formationEtab">EPSI</span><span class="formationVille">Nantes (44)</span></li>
-                <li><span class="formationDate">2007-09-01 2008-06-30</span><span class="formationTitre">Spécialisation agent de développement local (Équivalent licence)</span><span class="formationEtab">CFPPA de l'Epine</span><span class="formationVille">L'Epine (51)</span></li>
-                <li><span class="formationDate">2004-09-01 2007-06-30</span><span class="formationTitre">BTSA Gestion et Protection de la Nature</span><span class="formationEtab">CFPPA la Charmelière</span><span class="formationVille">Carquefou (44)</span></li>
-                <li><span class="formationDate">2002-09-01 2003-06-30</span><span class="formationTitre">Baccalauréat E.S. - Sciences économiques et sociales - option Economie</span><span class="formationEtab">Lycée Pierre Bayen</span><span class="formationVille">Châlons-en-Champagne (51)</span></li>
-            </ul>
+
+            <div class="diplomeDiv">
+
+                <div class="datesDiv">
+                    <p class="formationDate">février 2018</p>
+                    <p class="formationDate">En cours...</p>
+                </div>
+                    <div class="formaDetail">
+                        <p class="formationTitre">Formation Concepteur Développeur en informatique (Niveau III)</p>
+                        <p class="formationEtab subInfo">EPSI - <span class="formationVille">Nantes (44)</span></p>
+                        <p class="formaResume">Apprentissage via l'alternance du métier de concepteur développeur. Architecture n-tiers, programmation orientée objet, coneption et gestion de bases de données,...</p>
+                    </div>
+            </div>
+
+            <div class="diplomeDiv">
+
+                <div class="datesDiv">
+                    <p class="formationDate">septembre 2017</p>
+                    <p class="formationDate">février 2018</p>
+                </div>
+                <div class="formaDetail">
+                    <p class="formationTitre">POEI Concepteur Développeur en informatique</p>
+                    <p class="formationEtab subInfo">EPSI - <span class="formationVille">Nantes (44)</span></p>
+                    <p class="formaResume">Préparation préalable à la formation de concepteur développeur. Développement Web, SQL, différents langages, modélisation/conception de bases de données,.</p>
+                </div>
+            </div>
+
+            <div class="diplomeDiv">
+
+                <div class="datesDiv">
+                    <p class="formationDate">septembre 2007</p>
+                    <p class="formationDate">juin 2008</p>
+                </div>
+                <div class="formaDetail">
+                    <p class="formationTitre">Spécialisation agent de développement local</p>
+                    <p class="formationEtab subInfo">CFPPA de l'Epine - <span class="formationVille">L'Epine (51)</span></p>
+                    <p class="formaResume">Formation au métier d'agent de développement local : travail avec les partenaires locaux, connaissance du fonctionnement des collectivités, concertation, études d'impact, suivi de dossier,...(6mois de cours puis 3mois de stage)."</p>
+                </div>
+
+            </div>
+
+            <div class="diplomeDiv">
+
+                <div class="datesDiv">
+                    <p class="formationDate">septembre 2004</p>
+                    <p class="formationDate">juin 2007</p>
+                </div>
+                <div class="formaDetail">
+                    <p class="formationTitre">BTSA Gestion et Protection de la Nature (Niveau IV)</p>
+                    <p class="formationEtab subInfo">CFPPA la Charmelière - <span class="formationVille">Carquefou (44)</span></p>
+                    <p class="formaResume">Option : Gestion des espaces naturels. Le technicien gestionnaire d'espace naturel protégé doit connaître la faune et la flore. Il en suit l'évolution, l'observe et enregistre des données. Il assure la coordination d'actions de gestion durable et de mise en valeur ( organisation de chantiers ), d'actions éducatives."</p>
+                </div>
+
+            </div>
+            <div class="diplomeDiv">
+
+                <div class="datesDiv">
+                    <p class="formationDate">septembre 2002</p>
+                    <p class="formationDate">juin 2003</p>
+                </div>
+                <div class="formaDetail">
+                    <p class="formationTitre">Baccalauréat E.S. - Sciences économiques et sociales - option Economie</p>
+                    <p class="formationEtab subInfo">Lycée Pierre Bayen - <span class="formationVille">Châlons-en-Champagne (51)</span></p>
+                    <p class="formaResume"></p>
+                </div>
+
+            </div>
         </div>
     </div>
+
 
     <div id="realisationDiv" class="contentDiv align">
         <h2 class="divTitle">Mes réalisations</h2>
         <div class="alignContent">
             <div id="reaTriper" class="contentPart">
+                <img class="reaPicture" src="img/triper_home.png">
                 <p class="reaTitle bold">Triper</p>
-                <p class="smallFont">Projet réalisé en formation, Triper est une application vous permettant de trouver la detination de voyage qui vous contient le mieux</p>
+                <p class="smallFont">Projet réalisé en formation, Triper est une application vous permettant de trouver la detination de voyage qui vous convient le mieux</p>
             </div>
         </div>
 
@@ -117,6 +190,8 @@
     <div id="otherDiv" class="contentDiv align">
         <h2 class="divTitle">Avant ma reconversion</h2>
         <div class="alignContent">
+            <p>Fort d'une expérience professionnelle riche et variée, j'ai eu la chance d'exercer de nombreux métiers dans de nombreux domaines.</p>
+            <p>Que ce soit en tant qu'encadrant de chantier d'insertion, conseiller à l'emploi, assistant d'éducation </p>
 
         </div>
     </div>
@@ -129,32 +204,32 @@
             <div id="interestInfo" class="contentPart">
                 <i class="fas fa-laptop interestIcon"></i>
                 <p class="bold interestTitle">L'informatique</p>
-                <p class="smallFont">fbhesqihfeshf fesj fojse sef jeffs fse jseijf sei s jfseijf sef seifjse s</p>
+                <p class="smallFont">Développement, nouvelles technologies, intelligence artificielle...</p>
             </div>
             <div id="interestWild" class="contentPart">
                 <i class="fab fa-pagelines interestIcon"></i>
                 <p class="bold interestTitle">Faune et Flore</p>
-                <p class="smallFont">fbhesqihfeshf fesj fojse sef jeffs fse jseijf sei s jfseijf sef seifjse s</p>
+                <p class="smallFont">Biodiversité, faune sauvage, ornithologie, flore, logiques du monde vivant... </p>
             </div>
             <div id="interestTravel" class="contentPart">
-                <i class="fas fa-map-marked-alt interestIcon"></i>
+                <i class="fas fa-globe-americas interestIcon"></i>
                 <p class="bold interestTitle">Voyages</p>
-                <p class="smallFont">fbhesqihfeshf fesj fojse sef jeffs fse jseijf sei s jfseijf sef seifjse s</p>
+                <p class="smallFont">Voyages longue durée : Guyane 4ans, USA 6mois, Nouvelle-Zélande 3mois...</p>
             </div>
             <div id="interestCapo" class="contentPart">
                 <i class="fas fa-hands-helping interestIcon"></i>
                 <p class="bold interestTitle">Capoeira</p>
-                <p class="smallFont">fbhesqihfeshf fesj fojse sef jeffs fse jseijf sei s jfseijf sef seifjse s</p>
+                <p class="smallFont">Combat, malice,musique, partage, convivialité, esprit collectif...</p>
             </div>
             <div id="interestTrails" class="contentPart">
                 <i class="fab fa-pied-piper-alt interestIcon"></i>
                 <p class="bold interestTitle">L'Aventure</p>
-                <p class="smallFont">fbhesqihfeshf fesj fojse sef jeffs fse jseijf sei s jfseijf sef seifjse s</p>
+                <p class="smallFont">Grande randonnée, expéditions en jungle, capture de serpents et caïmans, bivouac, survie, découverte de l'inconnu...</p>
             </div>
             <div id="interestMusic" class="contentPart">
                 <i class="fas fa-music interestIcon"></i>
                 <p class="bold interestTitle">Musique</p>
-                <p class="smallFont">fbhesqihfeshf fesj fojse sef jeffs fse jseijf sei s jfseijf sef seifjse s</p>
+                <p class="smallFont">Guitare, piano, berimbau... </p>
             </div>
         </div>
     </div>

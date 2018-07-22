@@ -48,3 +48,42 @@ joueur flûte
 
 hands
 <i class="fas fa-hands-helping"></i>
+
+engrenages
+<i class="fas fa-cogs"></i>
+
+engrenages2
+<i class="fab fa-whmcs"></i>
+
+engrenage
+<i class="fas fa-cog"></i>
+
+bdd
+<i class="fas fa-coins"></i>
+
+image
+<i class="fas fa-image"></i>
+
+usine
+<i class="fas fa-industry"></i>
+
+smartphone
+<i class="fas fa-mobile-alt"></i>
+
+sitemap
+<i class="fas fa-sitemap"></i>
+
+tablette
+<i class="fas fa-tablet-alt"></i>
+
+ampoule
+<i class="far fa-lightbulb"></i>
+
+loupe normal
+<i class="fas fa-search"></i>
+
+loupe plus
+<i class="fas fa-search-plus"></i>
+
+loupe moins
+<i class="fas fa-search-minus"></i>
