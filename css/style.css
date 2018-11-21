@@ -1,141 +1,73 @@
+@keyframes turn720 {
+    0% {
+        transform: rotate(720deg);
+    }
+
+}
+h2{
+    padding-bottom: 60px;
+}
 html{
-    margin: 0;
+ margin:0;
     padding: 0;
 }
 body {
-    width: 100%;
-    margin: auto;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 90%;
+    font-family: 'Noto Sans TC', sans-serif;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, white), color-stop(1, #e9ecef));
+}
+.container-fluid{
 
 }
-
-
-header{
-    position: relative;
-    margin: 0px;
-    background: lightskyblue;
-    height: 290px;
-    z-index: -999;
-}
-header h1{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    margin-top: 100px;
-    color: #fff;
-    text-align: center;
-
-}
-.headName{
-    text-transform: uppercase;
-}
-
-.headTitle{
-
-    display: inline-block;
-    margin-top: 10px;
-    padding-top: 5px;
-    text-transform: uppercase;
-    border-top: 1px solid #fff;
-    font: inherit;
-
-}
-
-nav{
-    background: gray;
-    min-height: 52px;
-    z-index: 999;
-    position: absolute;
-    width: 100%;
-
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-
-}
-nav ul li{
+ul{
     list-style: none;
-    cursor: pointer;
-
-}
-nav li a{
-    display: inline-block;
-    color: cornsilk;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 15px 5px;
-    transition-property: color;
-    transition-duration: 1s;
-    transition-timing-function: ease-in;
-
-
 }
 
-nav li a:hover{
+.formaDetail{
+    border-bottom: white 5px solid;
+    margin-bottom: 20px;
+}
+#pdfIconDiv{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.formationDate{/*
+    background:grey;
     color: white;
-}
-nav li a:active{
-    color: white;
-}
-
-
-.menuAbsolute{
-    position: fixed;
-    top: 0;
-}
-
-.divTitle{
-    text-transform: uppercase;
-}
-
-.contentDiv{
-    padding: 90px 0 120px;
-    /*border: 1px solid black;*/
-
-}
-
-.contentDiv h2{
+    padding :5px;
+    font-size: 80%;
     text-align: center;
-}
-.divSubTitle{
-    text-align: center;
-}
-#aProposDiv{
-    background: rgba(138,210,255,0.05);
-}
-#listComps{
-    background: rgba(138,210,255,0.12);
-
-}
-#expDiv{
-    background: rgba(138,210,255,0.15);
-}
-#formationDiv{
-    background:rgba(138,210,255,0.19);
-}
-#realisationDiv{
-    background: rgba(138,210,255,0.15);
-}
-#interestnDiv{
-    background: rgba(138,210,255,0.12);
-}
-#contactDiv{
-    background: rgba(138,210,255,0.05);
+    border-radius: 10px;*/
+    font-style: italic;
 }
 
-.alignContent{
-    margin:0 auto;
-    padding : 20px;
-    max-width: 1200px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.reaPicture{
+    width:250px;
+}
+header{
+    /*position: relative;
+    *//*background: lightskyblue;*/
+    background: url("../img/banntest1.jpg");
+    height: 290px;
+    padding-top: 100px;
+   /* z-index: -999;
+*/}
+.headerTitle{
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*margin-top: 100px;*/
+    color: #fff;
+}
 
+
+.nav li a{
+    color:white;
+}
+.nav li a:hover{
+    color:#dae0e5;
+}
+
+.profilePic{
+    width:200px;
 }
 
 #compsDiv  .alignContent .contentPart ul{
@@ -143,36 +75,44 @@ nav li a:active{
     list-style: none;
     padding: 0;
 }
-
-.reaPicture{
-    width: 100%;
-}
-
-.smallFont{
-    font-size: 75%;
-}
-
-.bold{
-    font-weight: 700;
-}
-
-.interestIcon,.contactIcon{
-    font-size: 350%;
-    margin: auto;
-}
-
-
 .contentPart{
     padding: 20px;
-    margin: 20px 40px 20px 40px;
-    width: 200px;
-    /*border:1px solid black;*/
-    text-align: center;
+}
+.interestIcon,.contactIcon{
+    font-size: 350%;
+}
+.contentDiv{
+    padding: 90px 0 100px;
+
+
 }
 
-.interestTitle{
-    color: grey;
+.subInfo{
+    font-size: 80%;
+
 }
+
+#contactDiv .contactIcon:hover{
+    animation: turn720 1s;
+}
+
+#interestDiv .contentPart:hover i {
+    transform: translate(0,-20px);
+    transition-duration: .3s;
+    transition-timing-function:ease-out;
+}
+
+#compsDiv .contactIcon:hover , #pdfIcon:hover {
+    transform: scale(1.5);
+    transition-duration: .3s;
+    transition-timing-function:ease-out;
+}
+#compsDiv .contactIcon, #pdfIcon{
+    transform: scale(1);
+    transition-duration: .2s;
+    transition-timing-function:ease-out;
+}
+
 
 #interestDiv .contentPart i{
     transform: translate(0,0);
@@ -180,94 +120,11 @@ nav li a:active{
     transition-timing-function:ease-out;
 
 }
-#interestDiv .contentPart:hover i {
-    transform: translate(0,-20px);
-    transition-duration: .3s;
-    transition-timing-function:ease-out;
-}
-
-#contactDiv p{
-    color: grey;
-}
-
-@keyframes turn720 {
-    0% {
-        transform: rotate(720deg);
-    }
-
-}
-#contactDiv .contentPart:hover i {
-    animation: turn720 1s;
-}
-
-#aProposDiv .alignContent{
-    display: flex;
-    justify-content: center;
-}
-.profilePicDiv{
-    max-width: 300px;
-
-}
-.profilePic{
-    width: 100%;
-}
-.profileTextDiv{
-    max-width: 67%;
-
-}
-
-#formationDiv .alignContent ul{
-    list-style: none;
+#linkedinPic{
+    width: 60px;
 }
 
 
-.formationDate{
-
-    font-size: 75%;
-    margin-right: 5px;
-    text-align: center;
-    vertical-align: middle;
-    padding: 2px;
-    width: 100px;
-    height: 15px;
-    background: #638bff;
-    color: aliceblue;
-    font-weight: bold;
-    border-radius: 10px 10px 10px ;
-}
-.formationTitre{
-    font-weight: bold;
-    color: grey;
-    margin: 0;
-    font-size: 110%;
-}
-
-.subInfo{
-    font-size: 75%;
-}
-.diplomeDiv{
-    padding: 20px;
-    width: 80%;
-    display: flex;
-    margin-bottom: 20px;
-
-
-}
-.datesDiv{
-    display: flex;
-    flex-direction: row;
-    margin-top: 8px;
-    margin-right: 30px;
-}
-
-.formaResume{
-    text-align: justify;
-    font-size: 90%;
-    margin: 0;
-}
-.formaDetail{
-    max-width: 800px;
-}
-.formaResume{
-    font-style: italic;
+#pdfIcon{
+    color: darkred;
 }

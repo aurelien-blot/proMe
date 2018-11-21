@@ -2,262 +2,354 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CV Aurélien blot</title>
-</head>
-<body>
-    <header>
-        <h1>
-            <span class="headName">Aurélien Blot</span><br>
-            <span class="headTitle">Concepteur / Développeur</span>
-        </h1>
+    </head>
+    <body>
+
+    <header class="jumbotron-fluid text-center">
+        <div class="container-fluid headerTitle">
+        <h1 class="headName text-uppercase">Aurélien Blot</h1>
+        <h1 class="headTitle border-top">Concepteur / Développeur</h1>
+        </div>
     </header>
-    <nav id="menuLarge">
-        <ul>
-            <li><a href="#aProposDiv" class="menuLink">à propos</a></li>
-            <li><a href="#compsDiv" class="menuLink">compétences</a></li>
-            <li><a href="#expDiv" class="menuLink">expérience</a></li>
-            <li><a href="#formationDiv" class="menuLink">formation</a></li>
-            <li><a href="#realisationDiv" class="menuLink">réalisations</a></li>
-            <li><a href="#otherDiv" class="menuLink">parcours pro</a></li>
-            <li><a href="#interestDiv" class="menuLink">intérêts</a></li>
-            <li><a href="#contactDiv" class="menuLink">contact</a></li>
+        <ul class="nav justify-content-center navbar navbar-dark bg-secondary sticky-top">
+            <li class="nav-item text-uppercase"><a class="nav-link" href="#aProposDiv" class="menuLink">à propos</a></li>
+            <li class="nav-item text-uppercase"><a class="nav-link"  href="#compsDiv" class="menuLink">compétences</a></li>
+            <li class="nav-item text-uppercase"><a class="nav-link"  href="#expDiv" class="menuLink">expérience</a></li>
+            <li class="nav-item text-uppercase"><a class="nav-link" href="#formationDiv" class="menuLink">formation</a></li>
+            <li class="nav-item text-uppercase"><a class="nav-link" href="#realisationDiv" class="menuLink">réalisations</a></li>
+            <li class="nav-item text-uppercase"><a class="nav-link" href="#otherDiv" class="menuLink">parcours pro</a></li>
+            <li class="nav-item text-uppercase"><a class="nav-link"  href="#interestDiv" class="menuLink">intérêts</a></li>
+            <li class="nav-itexxm text-uppercase"><a class="nav-link" href="#contactDiv" class="menuLink">contact</a></li>
         </ul>
-    </nav>
 
-    <div id="aProposDiv" class="contentDiv align">
-        <h2  class="divTitle">à propos</h2>
-        <p class="divSubTitle">Ma situation professionnelle en quelques lignes</p>
-        <div class="alignContent">
-            <div class="profilePicDiv">
-                <img src="img/photo_default.png" class="profilePic"/>
-            </div>
-            <div class="profileTextDiv">
-                <p id="aProposText">Depuis toujours passionné par l'informatique et suite à ma décision de reconversion professionnelle, je suis actuellement en contrat de professionnalisation pour accéder au diplôme de Concepteur Développeur en Informatique.
-                    <br/> <br/>
-                    L'entreprise dans laquelle j'effectue actuellement mon alternance ne me permettant pas de pratiquer le développement ni la conception mais uniquement du BI, je suis actuellement en recherche d'une entreprise pouvant reprendre mon contrat.
-                    <br/> <br/>
-                    D'une part afin de pouvoir mettre en pratique les notions à acquérir pour l'obtention de mon diplôme (programmation orientée objet principalement) et d'autre part pour travailler au sein d'une équipe et mettre au service d'une entrerpise mon énergie et mes compétences</p>
-            </div>
+
+    <div id="aProposDiv" class="container contentDiv">
+        <div  class="row text-center ">
+            <h2  class=" col-lg-12 font-weight-bold text-secondary">À propos</h2>
         </div>
-    </div>
-    <div id="compsDiv" class="contentDiv align">
-        <h2 class="divTitle">Mes compétences</h2>
-        <div class="alignContent">
-            <div class="contentPart">
-                <i id="logoConception" class="fas fa-sitemap contactIcon"></i>
-                <p class="compDivTitle bold">Conception</p>
-                    <ul>
-                        <li>UML / MERISE</li>
-                        <li>POO / MVC</li>
-                        <li>Conception base de données</li>
-                        <li>API REST</li>
-                    </ul>
+        <div id="" class="row text-center">
+            <p class="divSubTitle col-lg-12 font-italic ">Ma situation professionnelle en quelques lignes</p>
+        </div>
+        <div class="row align-items-center">
+            <div class=" profilePicDiv col-lg-3 ">
+                <img src="img/cvpic2.jpg" class="profilePic rounded-circle"/>
             </div>
-            <div class="contentPart">
-                <i id="logoBack" class="fas fa-cogs contactIcon"></i>
-                <p class="compDivTitle bold">Back-end</p>
-                <ul>
-                    <li>SQL / MY SQL</li>
-                    <li>PHP / JAVA / C# / C++</li>
-                    <li>SYMFONY / JEE / .NET</li>
-                    <li>DOCTRINE / HIBERNATE / ENTITY</li>
-
-
-
-                </ul>
-            </div>
-            <div class="contentPart">
-                <i id="logoFront" class="fas fa-mobile-alt contactIcon"></i>
-                <p class="compDivTitle bold">Front-End
-                <ul>
-                    <li>HTML5 / CSS3</li>
-                    <li>javascript</li>
-                    <li>jQuery</li>
-                </ul>
-
+            <div class="profileTextDiv col-lg-8 col-lg-offset-1">
+                <br>
+                <p id="aProposText">Après un parcours professionnel mouvementé, riche et instructif, j'ai fait le choix de me reconvertir dans l'informatique pour m'engager professionnellement sur le long terme.</p>
+                <p> Mon auto-formation, ma formation actuelle ainsi que mon alternance en entreprise n'ont fait que confirmer ce choix.</p>
+                <p>Je cherche donc aujourd'hui à rejoindre une entreprise dynamique pour y perfectionner mes compétences et en apprendre de nouvelles tout en développant au sein d'une équipe dans une ambiance agréable.</p>
             </div>
         </div>
     </div>
 
-    <div id="expDiv" class="contentDiv align">
-        <h2 class="divTitle">Mon expérience</h2>
-        <div class="alignContent">
-            <div class="diplomeDiv">
-
-                <div class="datesDiv">
-                    <p class="formationDate">De février 2018</p>
-                    <p class="formationDate">à aujourd'hui </p>
-                </div>
-                <div class="formaDetail">
-                    <p class="formationTitre">Développeur junior (alternance) - CGI</p>
-                    <p class="formationEtab subInfo">CGI - <span class="formationVille">Le Mans (72)</span></p>
-                    <p class="formaResume">Actuellement en alternance pour CGI, je travaille actuellemnt sur un projet de BI : manipulation de flux de données, mapping de données, tests Unitaires.</p>
-                </div>
-            </div>
-
+    <div id="compsDiv" class="container contentDiv">
+        <div class="row text-center">
+            <h2 class="col-lg-12 font-weight-bold text-secondary">Mes compétences</h2>
         </div>
-    </div>
 
-    <div id="formationDiv" class="contentDiv align">
-        <h2 class="divTitle">Ma Formation</h2>
-        <div class="alignContent">
-
-            <div class="diplomeDiv">
-
-                <div class="datesDiv">
-                    <p class="formationDate">février 2018</p>
-                    <p class="formationDate">En cours...</p>
-                </div>
-                    <div class="formaDetail">
-                        <p class="formationTitre">Formation Concepteur Développeur en informatique (Niveau III)</p>
-                        <p class="formationEtab subInfo">EPSI - <span class="formationVille">Nantes (44)</span></p>
-                        <p class="formaResume">Apprentissage via l'alternance du métier de concepteur développeur. Architecture n-tiers, programmation orientée objet, coneption et gestion de bases de données,...</p>
+        <div class="row justify-content-around">
+            <div class="col-lg-5 contentPart">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-center  ">
+                        <i id="logoConception" class="fas fa-sitemap contactIcon"></i>
+                        <p class="compDivTitle text-secondary font-weight-bold">Conception</p>
                     </div>
-            </div>
 
-            <div class="diplomeDiv">
-
-                <div class="datesDiv">
-                    <p class="formationDate">septembre 2017</p>
-                    <p class="formationDate">février 2018</p>
-                </div>
-                <div class="formaDetail">
-                    <p class="formationTitre">POEI Concepteur Développeur en informatique</p>
-                    <p class="formationEtab subInfo">EPSI - <span class="formationVille">Nantes (44)</span></p>
-                    <p class="formaResume">Préparation préalable à la formation de concepteur développeur. Développement Web, SQL, différents langages, modélisation/conception de bases de données,.</p>
+                        <ul class="col-lg-8">
+                            <li><i class="fas fa-angle-double-right"></i> UML / MERISE</li>
+                            <li><i class="fas fa-angle-double-right"></i> POO / MVC</li>
+                            <li><i class="fas fa-angle-double-right"></i> Conception base de données</li>
+                            <li><i class="fas fa-angle-double-right"></i> API REST</li>
+                        </ul>
                 </div>
             </div>
+            <div class=" col-lg-5  contentPart">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-center ">
+                        <i id="logoBack" class="fas fa-cogs contactIcon"></i>
+                        <p class="compDivTitle text-secondary font-weight-bold">Back-end</p>
+                    </div>
+                    <ul class="col-lg-8 ">
+                        <li><i class="fas fa-angle-double-right"></i> SQL / MySQL / Oracle</li>
+                        <li><i class="fas fa-angle-double-right"></i> PHP / SYMFONY / DOCTRINE</li>
+                        <li><i class="fas fa-angle-double-right"></i> JAVA / JEE / HIBERNATE</li>
+                        <li><i class="fas fa-angle-double-right"></i> C# / .NET / ENTITY</li>
+                        <li><i class="fas fa-angle-double-right"></i> C++</li>
 
-            <div class="diplomeDiv">
 
-                <div class="datesDiv">
-                    <p class="formationDate">septembre 2007</p>
-                    <p class="formationDate">juin 2008</p>
+
+                    </ul>
                 </div>
-                <div class="formaDetail">
-                    <p class="formationTitre">Spécialisation agent de développement local</p>
-                    <p class="formationEtab subInfo">CFPPA de l'Epine - <span class="formationVille">L'Epine (51)</span></p>
-                    <p class="formaResume">Formation au métier d'agent de développement local : travail avec les partenaires locaux, connaissance du fonctionnement des collectivités, concertation, études d'impact, suivi de dossier,...(6mois de cours puis 3mois de stage)."</p>
-                </div>
+            </div>
+            <div class="col-lg-5   contentPart ">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-center">
+                        <i id="logoFront" class=" fas fa-mobile-alt contactIcon"></i>
+                        <p class="compDivTitle text-secondary font-weight-bold">Front-End</p>
+                    </div>
 
+
+                    <ul class="col-lg-8">
+                        <li><i class="fas fa-angle-double-right"></i> HTML5 / CSS3</li>
+                        <li><i class="fas fa-angle-double-right"></i> Javascript</li>
+                        <li><i class="fas fa-angle-double-right"></i> JQuery</li>
+                        <li><i class="fas fa-angle-double-right"></i> Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5  contentPart">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-center ">
+                        <i id="logoMethod" class="far fa-lightbulb contactIcon "></i>
+                        <p class="compDivTitle text-secondary font-weight-bold ">Méthodologie
+
+                    </div>
+                    <ul class="col-lg-8">
+                        <li><i class="fas fa-angle-double-right"></i> Intégration continue</li>
+                        <li><i class="fas fa-angle-double-right"></i> Agile</li>
+                        <li><i class="fas fa-angle-double-right"></i> Cycle en V</li>
+                        <li><i class="fas fa-angle-double-right"></i> VMOA/VMOE</li>
+                        <li><i class="fas fa-angle-double-right"></i> Gestion de dépendances / Maven</li>
+                        <li><i class="fas fa-angle-double-right"></i> Git / GitHub / BitBucket</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="expDiv" class="container contentDiv">
+        <div class="row text-center">
+            <h2 class=" col-lg-12 font-weight-bold text-secondary">Mon expérience</h2>
+        </div>
+        <div id="diplomeDiv" class="row justify-content-around">
+            <div class=" col-lg-1">
+                <p class="formationDate">fev-2018</p>
+            </div>
+            <div class=" col-lg-1">
+                <p class="formationDate">fev-2019</p>
             </div>
 
-            <div class="diplomeDiv">
 
-                <div class="datesDiv">
-                    <p class="formationDate">septembre 2004</p>
-                    <p class="formationDate">juin 2007</p>
+            <div class="formaDetail col-lg-9 ">
+                <p class="formationTitre font-weight-bold">Développeur - CGI</p>
+                <p class="formationEtab subInfo">CGI - Alternance - <span class="formationVille">Le Mans (72)</span></p>
+                <div class="formaResume">
+                    <p class="text-secondary">◉ <u>Projet Outil De Chiffrage :</u></p>
+                    <p>Conception et réalisation d'un outil de chiffrage de devis adaptable à tous les projets et à toutes les méthodes de calcul de devis de l'entreprise.</p>
+                    <p class="font-italic">// Java -JEE - Spring - Maven - Bootstrap - API - Progiciel - Aplication Web -MVC - Méthode Agile.</p>
+                    </br>
+                    <p class="text-secondary">◉ <u>Projet MCO :</u></p>
+                    <p>Maintien en condition opérationnelle d'un outil de gestion des sinistre pour une compagnie d'assurance.</p>
+                    <p class="font-italic">// Gestion de tickets d'incidents - Batchs sql - SmallTalk - Demandes d'évolutions - Base Oracle - MainFrame ...</p>
+                    </br >
+                    <p class="text-secondary">◉ <u>Projet BI :</u></p>
+                    <p>Création-Modification-Gestion de flux de données dans le cadre d'une migration de plusieurs bases de données.</p>
+                    </br>
                 </div>
-                <div class="formaDetail">
-                    <p class="formationTitre">BTSA Gestion et Protection de la Nature (Niveau IV)</p>
-                    <p class="formationEtab subInfo">CFPPA la Charmelière - <span class="formationVille">Carquefou (44)</span></p>
-                    <p class="formaResume">Option : Gestion des espaces naturels. Le technicien gestionnaire d'espace naturel protégé doit connaître la faune et la flore. Il en suit l'évolution, l'observe et enregistre des données. Il assure la coordination d'actions de gestion durable et de mise en valeur ( organisation de chantiers ), d'actions éducatives."</p>
-                </div>
-
             </div>
-            <div class="diplomeDiv">
 
-                <div class="datesDiv">
-                    <p class="formationDate">septembre 2002</p>
-                    <p class="formationDate">juin 2003</p>
-                </div>
-                <div class="formaDetail">
-                    <p class="formationTitre">Baccalauréat E.S. - Sciences économiques et sociales - option Economie</p>
-                    <p class="formationEtab subInfo">Lycée Pierre Bayen - <span class="formationVille">Châlons-en-Champagne (51)</span></p>
-                    <p class="formaResume"></p>
-                </div>
+        </div>
+    </div>
+    <div id="formationDiv" class="contentDiv container">
+        <div class="row text-center ">
+            <h2 class=" col-lg-12 font-weight-bold text-secondary">Ma Formation</h2>
+        </div>
+        <div class="diplomeDiv row justify-content-between">
+            <div class=" col-lg-1">
+                <p class="  formationDate">fev-2018</p>
+            </div>
+            <div class=" col-lg-1">
+                <p class="formationDate">fev-2019</p>
+            </div>
 
+            <div class="formaDetail col-lg-9">
+                <p class="formationTitre font-weight-bold">Formation Concepteur Développeur en informatique (Niv II)</p>
+                <p class="formationEtab subInfo font-italic h6">EPSI - <span class="formationVille">Nantes (44)</span></p>
+                <p class="formaResume">Apprentissage via l'alternance du métier de concepteur développeur. Architecture n-tiers, programmation orientée objet, coneption et gestion de bases de données,...</p>
+            </div>
+        </div>
+
+        <div class="diplomeDiv row justify-content-between">
+            <div class=" col-lg-2">
+                <p class="formationDate">Février - 2018 :</p>
+            </div><!--
+            <div class=" col-lg-1">
+                <p class="formationDate">fev-2018</p>
+            </div>
+-->
+            <div class="formaDetail col-lg-9">
+                <p class="formationTitre font-weight-bold">POEI Concepteur Développeur en informatique</p>
+                <p class="formationEtab subInfo font-italic">EPSI - <span class="formationVille">Nantes (44)</span></p>
+                <p class="formaResume">Préparation préalable à la formation de concepteur développeur. Développement Web, SQL, différents langages, modélisation/conception de bases de données,.</p>
+            </div>
+        </div>
+        <div class="diplomeDiv row justify-content-between">
+            <div class=" col-lg-1">
+                <p class="formationDate">janv-2017</p>
+            </div>
+            <div class=" col-lg-1">
+                <p class="formationDate">fev-2018</p>
+            </div>
+
+            <div class="formaDetail col-lg-9">
+                <p class="formationTitre font-weight-bold">Autoformation</p>
+                <p class="formationEtab subInfo font-italic">OpenClassRoom</p>
+                <p class="formaResume">Auto-Formation via divers cours en ligne : HTML - CSS - JavaScript - Jquery - PHP - SQL - MVC - MAVEN- Intégration continue - C# - WordPress - Git   </p>
+            </div>
+        </div>
+
+        <div class="diplomeDiv row justify-content-between">
+            <div class=" col-lg-1">
+                <p class="formationDate">sept-2007</p>
+            </div>
+            <div class=" col-lg-1">
+                <p class="formationDate">juin-2008</p>
+            </div>
+
+            <div class="formaDetail col-lg-9">
+                <p class="formationTitre font-weight-bold">Spécialisation agent de développement local (Niv III)</p>
+                <p class="formationEtab subInfo font-italic">CFPPA de l'Epine - <span class="formationVille">L'Epine (51)</span></p>
+                <p class="formaResume">Formation au métier d'agent de développement local : travail avec les partenaires locaux, connaissance du fonctionnement des collectivités, concertation, études d'impact, suivi de dossier,...(6mois de cours puis 3mois de stage)."</p>
+            </div>
+        </div>
+        <div class="diplomeDiv row justify-content-between">
+            <div class=" col-lg-1">
+                <p class="formationDate">sept-2004</p>
+            </div>
+            <div class=" col-lg-1">
+                <p class="formationDate">juin-2007</p>
+            </div>
+
+            <div class="formaDetail col-lg-9">
+                <p class="formationTitre font-weight-bold">BTSA Gestion et Protection de la Nature (Niv III)</p>
+                <p class="formationEtab subInfo font-italic">CFPPA la Charmelière - <span class="formationVille">Carquefou (44)</span></p>
+                <p class="formaResume">Option : Gestion des espaces naturels. Le technicien gestionnaire d'espace naturel protégé doit connaître la faune et la flore. Il en suit l'évolution, l'observe et enregistre des données. Il assure la coordination d'actions de gestion durable et de mise en valeur ( organisation de chantiers ), d'actions éducatives."</p>
+            </div>
+        </div>
+        <div class="diplomeDiv row justify-content-between">
+            <div class=" col-lg-1">
+                <p class="formationDate">sept-2002</p>
+            </div>
+            <div class=" col-lg-1">
+                <p class="formationDate">juin-2003</p>
+            </div>
+
+            <div class="formaDetail col-lg-9">
+                <p class="formationTitre font-weight-bold">Baccalauréat E.S. - Sciences économiques et sociales - option Economie</p>
+                <p class="formationEtab subInfo font-italic">Lycée Pierre Bayen - <span class="formationVille">Châlons-en-Champagne (51)</span></p>
+                <p class="formaResume"></p>
             </div>
         </div>
     </div>
 
 
-    <div id="realisationDiv" class="contentDiv align">
-        <h2 class="divTitle">Mes réalisations</h2>
-        <div class="alignContent">
-            <div id="reaTriper" class="contentPart">
-                <img class="reaPicture" src="img/triper_home.png">
-                <p class="reaTitle bold">Triper</p>
-                <p class="smallFont">Projet réalisé en formation, Triper est une application vous permettant de trouver la detination de voyage qui vous convient le mieux</p>
+    <div id="realisationDiv" class="contentDiv container">
+        <div  class="row text-center ">
+            <h2  class=" col-lg-12 font-weight-bold text-secondary">Mes réalisations</h2>
+        </div>
+        <div class="row justify-content-around">
+            <div id="reaTriper" class="col-lg-3 contentPart text-center">
+                <img title="Aperçu non disponible pour le moment" class="reaPicture" src="img/triper_home.png">
+                <p class="font-weight-bold text-secondary ">Triper</p>
+                <p class="smallFont">Projet réalisé en formation, Triper est une application vous permettant de trouver la destination de voyage qui vous convient le mieux</p>
             </div>
         </div>
 
     </div>
-    <div id="otherDiv" class="contentDiv align">
-        <h2 class="divTitle">Avant ma reconversion</h2>
-        <div class="alignContent">
+    <div id="otherDiv" class="contentDiv container">
+        <div  class="row text-center ">
+            <h2  class=" col-lg-12 font-weight-bold text-secondary">Avant ma reconversion</h2>
+        </div>
+        <div class="row justify-content-center">
             <p>Fort d'une expérience professionnelle riche et variée, j'ai eu la chance d'exercer de nombreux métiers dans de nombreux domaines.</p>
-            <p>Que ce soit en tant qu'encadrant de chantier d'insertion, conseiller à l'emploi, assistant d'éducation </p>
 
+       </div>
+        <div id="pdfIconDiv" class="row justify-content-center">
+            <a href="docs/CV_Aurelien_Blot_juillet_2017.pdf" target="_blank"><i id ="pdfIcon" class="far fa-file-pdf fa-5x"></i></a>
+        </div>
+        <div id="" class="row justify-content-center">
+            <p class="col-lg-3 text-center font-italic">Pour consulter le cv précédant ma reconversion, veuillez cliquer sur l'icône ci-dessous.</p>
         </div>
     </div>
 
-    <div id="interestDiv" class="contentDiv align">
-        <h2 class="divTitle">Mes centres d'intérêts</h2>
-        <div class="alignContent">
+    <div id="interestDiv" class="contentDiv container">
+        <div  class="row text-center ">
+            <h2 class="col-lg-12 font-weight-bold text-secondary">Mes centres d'intérêts</h2>
+        </div>
 
-
-            <div id="interestInfo" class="contentPart">
+        <div class="row justify-content-around">
+            <div id="interestInfo" class="text-center col-lg-3  contentPart">
                 <i class="fas fa-laptop interestIcon"></i>
-                <p class="bold interestTitle">L'informatique</p>
+                <p class="text-secondary font-weight-bold">L'informatique</p>
                 <p class="smallFont">Développement, nouvelles technologies, intelligence artificielle...</p>
             </div>
-            <div id="interestWild" class="contentPart">
+            <div id="interestWild" class="text-center col-lg-3 offset-md-1  contentPart">
                 <i class="fab fa-pagelines interestIcon"></i>
-                <p class="bold interestTitle">Faune et Flore</p>
+                <p class="text-secondary font-weight-bold">Faune et Flore</p>
                 <p class="smallFont">Biodiversité, faune sauvage, ornithologie, flore, logiques du monde vivant... </p>
             </div>
-            <div id="interestTravel" class="contentPart">
+            <div id="interestTravel" class="text-center col-lg-3 offset-md-1  contentPart">
                 <i class="fas fa-globe-americas interestIcon"></i>
-                <p class="bold interestTitle">Voyages</p>
-                <p class="smallFont">Voyages longue durée : Guyane 4ans, USA 6mois, Nouvelle-Zélande 3mois...</p>
+                <p class="text-secondary font-weight-bold">Voyages</p>
+                <p class="smallFont">Guyane - 4ans<br/>USA - 6mois<br/>Nouvelle-Zélande - 3mois</p>
             </div>
-            <div id="interestCapo" class="contentPart">
+            <div id="interestCapo" class="text-center col-lg-3  contentPart">
                 <i class="fas fa-hands-helping interestIcon"></i>
-                <p class="bold interestTitle">Capoeira</p>
+                <p class="text-secondary font-weight-bold">Capoeira</p>
                 <p class="smallFont">Combat, malice,musique, partage, convivialité, esprit collectif...</p>
             </div>
-            <div id="interestTrails" class="contentPart">
+            <div id="interestTrails" class="text-center col-lg-3  contentPart">
                 <i class="fab fa-pied-piper-alt interestIcon"></i>
-                <p class="bold interestTitle">L'Aventure</p>
+                <p class="text-secondary font-weight-bold">L'Aventure</p>
                 <p class="smallFont">Grande randonnée, expéditions en jungle, capture de serpents et caïmans, bivouac, survie, découverte de l'inconnu...</p>
             </div>
-            <div id="interestMusic" class="contentPart">
+            <div id="interestMusic" class="text-center col-lg-3  contentPart">
                 <i class="fas fa-music interestIcon"></i>
-                <p class="bold interestTitle">Musique</p>
+                <p class="text-secondary font-weight-bold">Musique</p>
                 <p class="smallFont">Guitare, piano, berimbau... </p>
             </div>
         </div>
     </div>
 
     </div>
-    <div id="contactDiv" class="contentDiv align">
-        <h2 class="divTitle">Me contacter</h2>
-        <div class="alignContent">
-            <div id="contactTel" class="contentPart">
+    <div id="contactDiv" class="contentDiv container">
+        <div  class="row text-center ">
+            <h2 class="col-lg-12 font-weight-bold text-secondary">Me contacter</h2>
+        </div>
+
+        <div class="row justify-content-around">
+            <div id="contactTel" class="text-center col-lg-2 contentPart">
                 <i class="fas fa-phone contactIcon"></i>
-                <p class="bold">+33 7 81 03 97 27</p>
+                <p class="bold"><a class="bold" href="tel:+33781039727">+33 7 81 03 97 27</a></p>
             </div>
-            <div id="contactMail" class="contentPart">
+            <div id="contactMail" class="text-center col-lg-3 contentPart">
                 <i class="far fa-envelope contactIcon"></i>
-                <p class="bold">aurelien.blot@gmail.com</p>
+                <p class="bold"><a href="mailto:aurelien.blot@gmail.com?subject=Demande d'informations">aurelien.blot@gmail.com</a></p>
             </div>
-            <div id="contactPlace" class="contentPart">
+            <div id="contactPlace" class="text-center col-lg-2 contentPart">
                 <i class="fas fa-map-marker-alt contactIcon"></i>
-                <p class="bold">Le Mans</p>
+                <p class="bold"><a href="https://www.google.fr/maps/place/Le+Mans" target="_blank">Le Mans</a></p>
+            </div>
+            <div id="" class="text-center col-lg-2 contentPart">
+                <img id="linkedinPic" class="contactIcon" src="img/linkedin-logo.png">
+                <p class="bold"><a href="https://www.linkedin.com/in/aurelien-blot/" target="_blank">Linkedin</a></p>
             </div>
         </div>
     </div>
-
-<footer></footer>
+    <footer></footer>
 
 
 
 <script src="js/jquery-3.3.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/scriptProMe.js"></script>
 </body>
 </html>
